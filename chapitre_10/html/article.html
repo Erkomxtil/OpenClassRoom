@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ajouter un article</title>
+</head>
+<body>
+  <h1>Ajout d'un article</h1>
+  <form>
+    <p>
+      <label for="titre">Titre</label> :
+      <input id="titre" type="text" name="titre">
+    </p>
+    <p>
+      <label for="contenu">Contenu</label> :<br/>
+      <textarea name="contenu" id="contenu" cols="30" rows="10"></textarea>
+    </p>
+    <p>
+      <input type="submit" value="Ajouter">
+    </p>
+    <div id="informations"></div>
+  </form>
+  <script src="../js/ajax.js"></script>
+  <script src="../js/article.js"></script>
+</body>
+</html>

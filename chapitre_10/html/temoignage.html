@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Témoignage</title>
+</head>
+<body>
+  <h1>Témoignage</h1>
+  <form>
+    <p>
+      <label for="pseudo">Pseudo</label> :
+      <input id="pseudo" name="pseudo" type="text">
+    </p>
+    <p>
+      Ce cours c'était : <br/>
+      <input type="radio" name="evaluation" id="genial" value="5">Génial !<br/>
+      <input type="radio" name="evaluation" id="tresBien" value="4">Très bien<br/>
+      <input type="radio" name="evaluation" id="pasMal" value="3">Pas mal<br/>
+      <input type="radio" name="evaluation" id="bof" value="2">Bof<br/>
+      <input type="radio" name="evaluation" id="nul" value="1">Nul<br/>
+    </p>
+    <p>
+      Ajoutez un message : <br/>
+      <textarea name="message" id="message" cols="30" rows="10"></textarea><br/>
+      <input type="submit" value="Envoyer">
+    </p>
+    <div id="infos"></div>
+  </form>
+  <script src="../js/ajax.js"></script>
+  <script src="../js/temoignage.js"></script>
+</body>
+</html>
